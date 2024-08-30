@@ -6,6 +6,6 @@ document.getElementById("colorPicker").addEventListener("input", function() {
     let g = parseInt(hexValue.slice(3, 5), 16);
     let b = parseInt(hexValue.slice(5, 7), 16);
 
-    let rgbValue = rgb(${r}, ${g}, ${b});
+    let rgbValue = rgb(`${r}, ${g}, ${b}`);
     document.getElementById("rgbValue").textContent = rgbValue;
 });

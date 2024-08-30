@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background:url("/images/cool-geometric-triangular-hallway-3d-rendering.jpg");
     margin: 0;
     padding: 0;
     display: flex;
@@ -11,10 +11,19 @@ body {
 
 .container {
     text-align: center;
-    background-color: #ffffff;
+    margin-left: 30px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+    width: 30%;
+    height: 40%;
+    border-radius: 40px;
+    border: 2px solid cyan;
+}
+
+.container:hover{
+    border: 2px solid whitesmoke;
 }
 
 h1 {
@@ -29,5 +38,5 @@ input[type="color"] {
 }
 
 .color-info p {
-    margin: 5px 0;
+    margin-top: 30px;
 }
